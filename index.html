@@ -4,31 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Heart Tonic</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <div class="logo">
-                <p>HEART<span>TONIC</span></p>
-            </div>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <p>HEART<span>TONIC</span></p>
+                </div>
+                <ul>
+                    <li><a href="#">BENEFICII</a></li>
+                    <li><a href="#">INGREDIENTE</a></li>
+                    <li><a href="#">COMANDĂ ACUM</a></li>
+                </ul>
+                <div class="menu">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </nav>
+        </div>
+        <div class="navbarSlider">
             <ul>
-                <li><a href="#">BENEFICII</a></li>
-                <li><a href="#">INGREDIENTE</a></li>
-                <li><a href="#">COMANDĂ ACUM</a></li>
+                <i class="ri-close-fill"></i>
+                <li>BENEFICII</li>
+                <li>INGREDIENTE</li>
+                <li>COMANDĂ ACUM</li>
             </ul>
-        </nav>
+        </div>
     </header>
 
     <main>
         <section class="section1">
             <div class="container">
-                <div class="row ">
-                    <div class="col sec1-left">
+                <div class=" sec1 ">
+                    <div class="sec1-left">
                         <h1>Inima și vase de sânge sănătoase!</h1>
                         <p>HEARTTONIC – Conceput pentru acțiune tonifiantă asupra sistemului vascular</p>
                         <div class="sec1-img">
@@ -37,8 +51,9 @@
                         <button class="sec1-btn">Comandă acum</button>
 
                     </div>
-                    <div class="col sec1-right">
+                    <div class="sec1-right">
                         <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/6627673f11397_HeartTonic1.png">
+                        <img class="mobileImg" src="https://d1yei2z3i6k35z.cloudfront.net/6461271/6627a19bb0f2c_C369x117px.png">
                     </div>
 
                 </div>
@@ -93,14 +108,557 @@
                 </div>
             </div>
         </section>
-    </main>
-    <footer>
 
+        <section class="section4">
+            <div class="container height">
+                <div class="sec4-top">
+                    <h1>În fiecare picătură de HeartTonic vei găsi:</h1>
+                    <p>12 ingrediente atent selectate care sprijină sănătatea cardiovasculară, inclusiv:</p>
+                </div>
+
+                <div class="sec4-middle">
+                    <div class="middle-box">
+                        <div class="box-top">
+                            <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/662243ed7b9fd_AngelicaRoot.png">
+                            <h1>Rădăcină de Angelică</h1>
+                            <h5>(Angelica archangelica)</h5>
+                        </div>
+
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>Susține fluxul sanguin și circulația</p>
+                        </div>
+                    </div>
+                    <div class="middle-box">
+                        <div class="box-top">
+                            <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/6622443d19559_Basil.png">
+                            <h1>Busuioc</h1>
+                            <h5>(Ocimum basilicum)</h5>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>Ajută la relaxarea vaselor de sânge</p>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>Îmbunătățește nivelurile de colesterol</p>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>Reduce inflamația</p>
+                        </div>
+                    </div>
+                    <div class="middle-box">
+                        <div class="box-top">
+                            <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/66224653ae152_LadysBedstraw.png">
+                            <h1>Rostopască</h1>
+                            <h5>(Galium verum)</h5>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>Protejează împotriva stresului oxidativ și a daunelor celulare</p>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>Reduce inflamația</p>
+                        </div>
+                    </div>
+                    <div class="middle-box">
+                        <div class="box-top">
+                            <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/66224950aaf11_Jasmine.png">
+                            <h1>Iasomie</h1>
+                            <h5>(Jasminum officinale)</h5>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>Ajută la scăderea tensiunii arteriale</p>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>Previne oxidarea colesterolului "rău" (LDL)</p>
+                        </div>
+                    </div>
+                    <div class="middle-box">
+                        <div class="box-top">
+                            <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/6622498b0fcc1_LicoriceRoot.png">
+                            <h1>Rădăcină de Lemn Dulce</h1>
+                            <h5>(Glycyrrhiza glabra)</h5>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>Susține sistemul digestiv</p>
+                        </div>
+                    </div>
+                    <div class="middle-box">
+                        <div class="box-top">
+                            <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/662249b38c262_Hawthorn.png">
+                            <h1>Păducel</h1>
+                            <h5>(Crataegus monogyna)</h5>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>Îmbunătățește fluxul sanguin</p>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>Reduce tensiunea arterială</p>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>Ajută la gestionarea simptomelor insuficienței cardiace</p>
+                        </div>
+                    </div>
+                    <div class="middle-box">
+                        <div class="box-top">
+                            <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/66224ae8de5b5_Rosemary.png">
+                            <h1>Rozmarin</h1>
+                            <h5>(Rosmarinus officinalis)</h5>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>
+                                Bogat în antioxidanți</p>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>Îmbunătățește fluxul sanguin</p>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>Reduce inflamația</p>
+                        </div>
+                    </div>
+                    <div class="middle-box">
+                        <div class="box-top">
+                            <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/66224b15a6f33_Sage.png">
+                            <h1>Salvie</h1>
+                            <h5>(Salvia officinalis)</h5>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>
+                                Ajută la scăderea colesterolului "rău" LDL</p>
+                        </div>
+                    </div>
+
+                    <div class="middle-box">
+                        <div class="box-top">
+                            <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/66224b49a9a33_Motherwort.png">
+                            <h1>Talpa-gâștei</h1>
+                            <h5>(Leonurus cardiaca)</h5>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>
+                                Reduce simptomele de anxietate legate de inimă</p>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>Conține antioxidanți și compuși antiinflamatori</p>
+                        </div>
+                    </div>
+                    <div class="middle-box">
+                        <div class="box-top">
+                            <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/66224b797b63e_Linden.png">
+                            <h1>Tei</h1>
+                            <h5>(Tilia cordata)</h5>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>Promovează relaxarea și somnul</p>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>
+                                Ajută la gestionarea simptomelor răcelilor și gripei</p>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>Susține sistemul digestiv</p>
+                        </div>
+                    </div>
+                    <div class="middle-box">
+                        <div class="box-top">
+                            <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/66224b9df35d9_Horehound.png">
+                            <h1>Mărul-lupului</h1>
+                            <h5>(Marrubium vulgare)</h5>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>
+                                Ajută la eliminarea congestiei</p>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>
+                                Reduce inflamația</p>
+                        </div>
+                    </div>
+                    <div class="middle-box">
+                        <div class="box-top">
+                            <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/66224bc43132e_Mistletoe.png">
+                            <h1>Vâsc</h1>
+                            <h5>(Viscum album)</h5>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>Stimulează sistemul imunitar</p>
+                        </div>
+                        <div class="box-bot">
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p>Ajută la tensiunea arterială și fluxul sanguin</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section5">
+            <div class="container height">
+                <div class="sec5">
+                    <div class="sec5-left">
+                        <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/66276804576e8_HeartTonic2.png" alt="">
+                    </div>
+                    <div class="sec5-right">
+                        <h1>Începe să Îți Întărești Inima Astăzi!</h1>
+                        <p>Ei bine, am vești bune pentru tine. Poți lua măsuri pentru a susține sănătatea inimii tale.
+                            Noua noastră formulă îmbunătățită HEARTTONIC funcționează pentru a susține inima ta folosind
+                            doar ingrediente naturale, sprijinite de cercetare, combinate în raporturile precise
+                            necesare pentru a susține mușchiul cardiac sănătos și vasele de sânge.</p>
+                        <div class="left-mid">
+                            <div class="row-lg rowLeft">
+                                <ul class="col-lg">
+                                    <i class="ri-check-line"></i>
+                                    <li>Formulă Naturală</li>
+                                </ul>
+                                <ul class="col-lg">
+                                    <i class="ri-check-line"></i>
+                                    <li>Fără Stimulente</li>
+                                </ul>
+                                <ul class="col-lg">
+                                    <i class="ri-check-line"></i>
+                                    <li>Non-OMG</li>
+                                </ul>
+
+                            </div>
+                            <div class="row-lg">
+                                <ul class="col">
+                                    <i class="ri-check-line"></i>
+                                    <li>Ușor de Luat</li>
+                                </ul>
+                                <ul class="col">
+                                    <i class="ri-check-line"></i>
+                                    <li>Nu Creează Dependență</li>
+                                </ul>
+                                <ul class="col">
+                                    <i class="ri-check-fill"></i>
+                                    <li>Ingrediente din Plante</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <button class="sec1-btn">Comandă acum</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section6">
+            <div class="container height">
+                <div class="sec6-top">
+                    <p>Clienți Reali</p>
+                    <p>Rezultate Reale, Care Schimbă Viața</p>
+                    <div class="imgnery">
+                        <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/662359a0f04ff_test-1.jpeg" alt="">
+                        <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/66235a1063834_test-2.jpeg" alt="">
+                        <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/66235a2bb331a_test-3.jpeg" alt="">
+                        <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/66235c4e6e6a9_test-4.png" alt="">
+                    </div>
+
+                    <div class="box-img">
+                        <div class="imgleft">
+                            <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/66235c4e6e6a9_test-4.png" alt="">
+                        </div>
+                        <div class="imgright">
+                            <p>"Fiind mereu conștientă de menținerea unei inimi sănătoase, sunt încântată să fi
+                                descoperit Heart Tonic. A devenit un element de bază în rutina mea zilnică, și am
+                                observat o îmbunătățire semnificativă a sănătății mele cardiovasculare de când l-am
+                                inclus."</p>
+                            <h2>Christina B.<span>- București</span></h2>
+                            <div class="iconside">
+                                <div class="icons">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <p> Achiziție verificată</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box-img">
+                        <div class="imgleft">
+                            <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/66235a1063834_test-2.jpeg" alt="">
+                        </div>
+                        <div class="imgright">
+                            <p>"La început eram sceptic, dar după ce am încercat Heart Tonic câteva săptămâni, pot spune
+                                sincer că mă simt mai energic și inima mea pare mai puternică. Plus, bonusul adăugat al
+                                unei circulații mai bune a făcut o diferență notabilă în viața mea de zi cu zi."</p>
+                            <h2>Marcel A. <span>- Iași</span></h2>
+                            <div class="iconside">
+                                <div class="icons">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <p> Achiziție verificată</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box-img">
+                        <div class="imgleft">
+                            <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/66235a2bb331a_test-3.jpeg" alt="">
+                        </div>
+                        <div class="imgright">
+                            <p>
+                                "Iau Heart Tonic de câteva luni acum, și nu aș putea fi mai mulțumit de rezultate.
+                                Tensiunea mea arterială s-a stabilizat, și nu mai experimentez palpitațiile ocazionale
+                                care mă îngrijorau. Vă mulțumesc pentru un produs atât de eficient!"</p>
+                            <h2>Maria D.<span>- Timișoara</span></h2>
+                            <div class="iconside">
+                                <div class="icons">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <p> Achiziție verificată</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section7">
+            <p>Primește Reducerea Ta pentru HeartTonic Mai Jos, în Timp ce Stocurile Durează</p>
+        </section>
+
+        <section class="section8">
+            <div class="container height">
+                <div class="sec8box">
+                    <div class="productbox">
+                        <h1>1 Buc.</h1>
+                        <h4>Pentru 30 de zile</h4>
+                        <img class="fistimg"
+                            src="https://d1yei2z3i6k35z.cloudfront.net/6461271/6627678bed74b_HeartTonic3.png" alt="">
+                        <img class="secondimg" src="https://d1yei2z3i6k35z.cloudfront.net/6461271/6632376e8686b_89.png"
+                            alt="">
+                        <button>Comandă acum</button>
+                        <div class="sect8bot">
+                            <del>149 ron </del>
+                            <p>89 ron</p>
+                        </div>
+                    </div>
+                    <div class="productbox">
+                        <h1>1 Buc.</h1>
+                        <h4>Pentru 60 de zile</h4>
+                        <img class="fistimg"
+                            src="https://d1yei2z3i6k35z.cloudfront.net/6461271/662768aa3f56e_HeartTonic5.png" alt="">
+                        <img class="secondimg" src="https://d1yei2z3i6k35z.cloudfront.net/6461271/66323772cd6f1_75.png"
+                            alt="">
+                        <button>Comandă acum</button>
+                        <div class="sect8bot">
+                            <del>298 ron </del>
+                            <p>150 ron</p>
+                        </div>
+                    </div>
+                    <div class="productbox">
+                        <h1>3 Buc</h1>
+                        <h4>Pentru 90 de zile</h4>
+                        <img class="fistimg"
+                            src="https://d1yei2z3i6k35z.cloudfront.net/6461271/662769eca3987_HeartTonic4.png" alt="">
+                        <img class="secondimg" src="https://d1yei2z3i6k35z.cloudfront.net/6461271/66323778da3a9_66.png"
+                            alt="">
+                        <h3>TRANSPORT GRATUIT!</h3>
+                        <button>Comandă acum</button>
+                        <div class="sect8bot">
+                            <del>447 ron</del>
+                            <p>199 ron</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sec8bot">
+                    <h1>Clienții noștri apreciază</h1>
+                    <div class="sec8icons">
+                        <div class="icons">
+
+                        </div>
+                        <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/6623496f4a77d_4.925.png" alt="">
+                    </div>
+                    <p>în baza a 2000 de recenzii</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section9">
+            <div class="container height">
+                <div class="sec9top">
+                    <h1>100% SATISFACȚIE</h1>
+                    <h1>GARANȚIE DE RETURNARE A BANILOR 14 ZILE</h1>
+                </div>
+
+                <div class="sec9-mid">
+                    <img src="https://d1yei2z3i6k35z.cloudfront.net/6461271/66234a69e2985_guarantee_badge.webp" alt="">
+                    <p>HEARTTONIC vine cu o garanție de returnare a banilor de 100% - 14 de zile complete de la
+                        achiziția inițială. Dacă nu ești total și complet mulțumit de produsul nostru sau de rezultatele
+                        tale în primele 14 de zile, pur și simplu anunță-ne apelând numărul nostru de pe factură sau
+                        trimițându-ne un e-mail și îți vom oferi cu plăcere o rambursare completă în termen de 48 de ore
+                        de la returnarea produsului. Așa e - pur și simplu returnează produsul, oricând în termen de 14
+                        de zile de la achiziția ta și vei primi o rambursare completă, fără întrebări (minus taxele de
+                        expediere și manipulare).</p>
+                </div>
+                <div class="todos">
+                    <h1>Întrebări frecvente</h1>
+
+                    <div class="todoslist">
+                        <div class="label">
+                            <h3>HEARTTONIC este potrivit pentru mine?</h3>
+                            <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                        <p>HEARTTONIC oferă suport cardiovascular remarcabil pentru persoane din diverse grupe de vârstă, inclusiv pentru cei din anii 30, 40, 50 și chiar 70. Creat pe baza principiilor științifice de ultimă oră, formula HEARTTONIC este atât blândă, cât și puternică, valorificând puterea extractelor pure de plante și a mineralelor naturale. Plus, este mândru că este fabricat în UE, asigurând calitatea și siguranța.</p>
+                    </div>
+
+                    <div class="todoslist">
+                        <div class="label">
+                            <h3>Produsul este certificat?</h3>
+                            <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                        <p>Da, Heart Tonic este fabricat în Uniunea Europeană și are toate certificările CE necesare. Este certificat pentru a fi vândut ca supliment alimentar în toate țările din Uniunea Europeană.</p>
+                    </div>
+
+                    <div class="todoslist">
+                        <div class="label">
+                            <h3>Care sunt ingredientele din Heart Tonic?</h3>
+                            <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                        <p>Apă deionizată, alcool etilic de calitate alimentară (min. 37% v/v alcool), rădăcină de Angelica (Angelica archangelica) 3%, partea aeriană de Busuioc (Ocimum basilicum) 3%, partea aeriană de Rostopască (Galium verum) 2%, flori de Iasomie (Jasminum officinale) 2%, rădăcină de Lemn dulce (Glycyrrhiza glabra) 2%, flori de Păducel (Crataegus monogyna) 2%, partea aeriană de Rozmarin (Rosmarinus officinalis) 2%, partea aeriană de Salvie (Salvia officinalis) 2%, partea aeriană de Talpa-gâștei (Leonurus cardiaca) 2%, flori de Tei (Tilia cordata) 2%, partea aeriană de Mărul-lupului (Marrubium vulgare) 1%, ramuri de Vâsc (Viscum album) 1%.</p>
+                    </div>
+
+                    <div class="todoslist">
+                        <div class="label">
+                            <h3>Există contraindicații?</h3>
+                            <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                        <p>Sarcina, alăptarea, alergia la plante din familia Lamiaceae sau la oricare dintre componentele produsului.</p>
+                    </div>
+
+                    <div class="todoslist">
+                        <div class="label">
+                            <h3>Cum se utilizează?</h3>
+                            <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                        <p>Pentru adulți și copii peste 15 ani, luați o jumătate de linguriță de 4 ori pe zi sau conform sfatului medicului, la 30 de minute după mesele principale.</p>
+                    </div>
+
+                    <div class="todoslist">
+                        <div class="label">
+                            <h3>Cum comand?</h3>
+                            <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                        <p>Completați detaliile de contact în formularul de contact, și vă vom contacta cât mai curând posibil pentru a răspunde la orice întrebări pe care le-ați putea avea.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer-top">
+            <ul>
+                <li>Contact</li>
+                <li>Termeni </li>
+                <li>Confidențialitate </li>
+                <li>Politica de Rambursare </li>
+                <li>Livrare </li>
+                <li>Disclaimer</li>
+                <li>Report Spam</li>
+            </ul>
+            <div class="menu">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+
+        <p>Avertisment: Tot conținutul și informațiile găsite pe această pagină sunt doar în scop informativ și nu sunt destinate să diagnozeze, trateze, vindece sau prevină nicio boală. Nu sunt destinate să fie un substitut pentru sfatul medical profesional și nu ar trebui să fie considerate ca sfaturi de sănătate sau personale. Asigură-te că te consulți cu un medic licențiat înainte de a lua orice supliment sau de a face orice modificări în dieta sau planul de exerciții fizice. Rezultatele individuale pot varia.</p>
+
+        <h5>Unele nume și informații personale de identificare de pe acest site au fost modificate pentru a proteja confidențialitatea persoanelor.</h5>
+
+        <h6>© HeartTonic 2024 Toate Drepturile Rezervate.</h6>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
 </body>
 
 </html>
